@@ -87,6 +87,12 @@ function renderApp() {
       header.append(title, price)
 
       const meta = createElement('div', 'item-meta')
+      if (item.image) {
+        const img = createElement('img', 'item-img', { src: item.image, alt: `${item.name} image`, width: '64', height: '64', loading: 'lazy' })
+        img.decoding = 'async'
+        img.referrerPolicy = 'no-referrer'
+        card.prepend(img)
+      }
       if (item.description) meta.append(createElement('p', 'item-desc', { text: item.description }))
       if (item.badge) meta.append(createElement('span', 'badge', { text: item.badge }))
 
@@ -112,3 +118,9 @@ function renderApp() {
 }
 
 renderApp()
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('/sw.js').catch(() => {})
+  })
+}
