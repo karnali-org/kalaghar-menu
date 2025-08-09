@@ -1,0 +1,44 @@
+{
+  "menuCategories": [
+    {
+      "slug": "chai",
+      "name": "Chai",
+      "items": [
+        { "id": "chai-masala", "name": "Masala Chai", "price": 35, "description": "Black tea simmered with spices and milk", "badge": "House Favorite" },
+        { "id": "chai-ginger", "name": "Ginger Chai", "price": 35, "description": "Warming ginger with bold tea and milk" },
+        { "id": "chai-cutting", "name": "Cutting Chai", "price": 20, "description": "Quick strong shot", "badge": "Popular" },
+        { "id": "chai-elaichi", "name": "Elaichi Chai", "price": 35, "description": "Cardamom infused" }
+      ]
+    },
+    {
+      "slug": "coffee",
+      "name": "Coffee",
+      "items": [
+        { "id": "coffee-filter", "name": "Filter Coffee", "price": 45, "description": "South Indian style" },
+        { "id": "coffee-cold", "name": "Cold Coffee", "price": 70, "description": "Chilled, lightly sweet" },
+        { "id": "coffee-black", "name": "Black Coffee", "price": 30 }
+      ]
+    },
+    {
+      "slug": "snacks",
+      "name": "Snacks",
+      "items": [
+        { "id": "snack-samosa", "name": "Samosa (2 pcs)", "price": 40, "description": "Crispy and savory" },
+        { "id": "snack-bun-maska", "name": "Bun Maska", "price": 30, "description": "Soft bun with butter" },
+        { "id": "snack-khari", "name": "Khari Biscuit", "price": 25 },
+        { "id": "snack-biscuit", "name": "Parle-G Biscuit", "price": 10 }
+      ]
+    },
+    {
+      "slug": "cold",
+      "name": "Cold Drinks",
+      "items": [
+        { "id": "cold-lassi", "name": "Sweet Lassi", "price": 60 },
+        { "id": "cold-nimbu", "name": "Nimbu Pani", "price": 35 },
+        { "id": "cold-soda", "name": "Masala Soda", "price": 40 }
+      ]
+    }
+  ]
+}
+
+
